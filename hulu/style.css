@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.super {
+    background-image: url(/images/background.jpg);
+    position: absolute;
+    background-position: center, center;
+    background-size: max(1300px, 100vw);
+    background-repeat: no-repeat;
+    height: 73vh;
+    position: relative;
+}
+
+div img {
+    height: 20px;
+}
+
+.menu {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header div button {
+    background: none;
+    color: white;
+    border-style: none;
+}
+
+
+.main {
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    gap: 30px;
+    color: white;
+    display: flex;
+}
+
+.small {
+    height: 40px;
+    width: 400px;
+    background-color: #1CE783;
+    color: black;
+    border-style: none;
+}
+
+.middle {
+
+    width: 100%;
+    height: 150px;
+    display: flex;
+    text-align: start;
+    /* background-color: red */
+}
+
+.middle img {
+    padding-top: 19px;
+    padding-left: 20px;
+    height: 80px;
+}
+
+.green {
+    font-size: small;
+    font-weight: bold;
+    color: #1CE783;
+    padding: 20px;
+}
+
+.big {
+    color: white;
+    width: 600px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.r {
+    padding: 10px;
+}
+
+.disney {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.disney div button {
+    gap: 10px;
+    background-color: white;
+    height: 40px;
+    width: 300px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.content {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+
+}
+
+.plans {
+    color: white;
+    font-size: small;
+}
+
+.all {
+    color: white;
+    font-size: 60px;
+}
+
+.Stream {
+    color: white;
+}
+
+.box {
+    display: flex;
+    gap: 30px;
+}
+
+.card {
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.card1 {
+    background-image: url(/images/1st.png);
+
+}
+
+.card2 {
+    background-image: url(/images/2ndimage.png);
+}
+
+.card3 {
+    background-image: url(/images/3rd.png);
+    color: aliceblue;
+}
+
+.card4 {
+    background-image: url(/images/4th.png);
+}
+
+.first {
+    color: white;
+    position: relative;
+    top: 300px;
+    left: 20px;
+
+}
+
+.first :nth-child(1) {
+    font-size: small;
+    color: #1CE783;
+}
+
+.first :nth-child(2) {
+    font-size: 50px;
+    color: #1CE783;
+}
+
+.first :nth-child(3) {
+    font-size: small;
+    font-weight: 400;
+    color: #1CE783;
+}
+
+.second {
+    color: white;
+    position: relative;
+    top: 300px;
+    left: 20px;
+    color: #1CE783;
+}
+
+.second {
+    color: white;
+    position: relative;
+    top: 300px;
+    left: 20px;
+    color: #1CE783;
+}
+
+.second :nth-child(1) {
+    font-size: small;
+    color: #1CE783;
+}
+
+.second :nth-child(2) {
+    font-size: 50px;
+    color: #1CE783;
+}
+
+.second :nth-child(3) {
+    font-size: small;
+    font-weight: 400;
+    color: #1CE783;
+}
+
+.third {
+    color: white;
+    position: relative;
+    top: 300px;
+    left: 20px;
+
+}
+
+.third :nth-child(1) {
+    font-size: small;
+    color: rgb(0, 51, 255);
+}
+
+.third :nth-child(2) {
+    font-size: 50px;
+    color: rgb(0, 51, 255);
+}
+
+.third :nth-child(3) {
+    font-size: small;
+    font-weight: 400;
+    color: rgb(0, 51, 255);
+}
+
+.forth {
+    color: white;
+    position: relative;
+    top: 300px;
+    left: 20px;
+
+}
+
+.forth :nth-child(1) {
+    font-size: small;
+    color: rgb(0, 51, 255);
+}
+
+.forth :nth-child(2) {
+    font-size: 40px;
+    color: rgb(0, 51, 255);
+}
+
+.forth :nth-child(3) {
+    font-size: small;
+    font-weight: 400;
+    color: rgb(0, 51, 255);
+}
+
+.last {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.last div img {
+    height: 90px;
+}
+
+.image1 {
+    margin: 20px;
+    font-size: large;
+}
+
+.image1 img {
+    position: relative;
+    left: 3.5cm;
+}
+
+.image2 {
+    margin: 20px;
+    font-size: large;
+}
+
+.image2 img {
+    position: relative;
+    left: 4cm;
+}
+
+.image3 {
+    margin: 20px;
+    font-size: large;
+}
+
+.image3 img {
+    position: relative;
+    left: 2cm;
+}
+
+.foot {
+    padding: 20px;
+    display: flex;
+}
+
+footer {
+    height: 400px;
+    background-color: rgba(186, 183, 183, 0.444);
+}
+
+footer div {
+    padding: 20px;
+}
